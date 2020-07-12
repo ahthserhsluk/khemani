@@ -1167,6 +1167,9 @@ SINGEL PRODUCT
 SERVICE
 ---------*/
 .service-banner {
+  top: -140px;
+  position: relative;
+  z-index: 100;
   background: url(../images/banner/4.jpg);
   background-repeat: no-repeat;
   background-position: center;

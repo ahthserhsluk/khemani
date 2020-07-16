@@ -1175,11 +1175,14 @@ SINGEL PRODUCT
 SERVICE
 ---------*/
 .service-banner {
+  margin-top: -40px;
+  position: relative;
+  z-index: 100;
   background: url(../images/banner/4.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding: 95px  0px 65px; }
+  padding: 95px  0px 105px; }
 
 .service-delivery {
   padding: 60px 30px; }
@@ -1848,7 +1851,8 @@ PRODUCT
   width: auto;
   margin-top: 50px;
   margin-bottom: 50px;
-  border: 1px solid #ddd; }
+  border: 1px solid #ddd; 
+}
 
 @media (min-width: 768px) {
   .mobile-broken-col-xs .col-lg-1, .mobile-broken-col-xs .col-lg-2, .mobile-broken-col-xs .col-lg-3, .mobile-broken-col-xs .col-lg-4, .mobile-broken-col-xs .col-lg-5, .mobile-broken-col-xs .col-lg-6, .mobile-broken-col-xs .col-lg-7, .mobile-broken-col-xs .col-lg-8, .mobile-broken-col-xs .col-lg-9, .mobile-broken-col-xs .col-lg-10, .mobile-broken-col-xs .col-lg-11, .mobile-broken-col-xs .col-lg-12,

@@ -1851,7 +1851,6 @@ PRODUCT
   width: auto;
   margin-top: 50px;
   margin-bottom: 50px;
-  border: 1px solid #ddd; 
 }
 
 @media (min-width: 768px) {

@@ -103,6 +103,14 @@ input {
   GLOBAL
 -----------------------------------------
 */
+.offer-section{
+  position: fixed !important;
+  background-color: #fff;
+  width: 100%;
+}
+.home-slider{
+  height: 100vh !important;
+}
 .gearx-btn-black,
 .gearx-btn-transparent,
 .gearx-btn-red,
@@ -1167,9 +1175,6 @@ SINGEL PRODUCT
 SERVICE
 ---------*/
 .service-banner {
-  top: -60px;
-  position: relative;
-  z-index: 100;
   background: url(../images/banner/4.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -1401,6 +1406,10 @@ BLOG SPACE
 .pagination-bar li a.active {
   background: #ff2121;
   color: #fff; }
+
+.offer-section{
+  z-index: 10000;
+}
 
 /*-------------------------------------
 BANNER
